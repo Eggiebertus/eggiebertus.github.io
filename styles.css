@@ -1,0 +1,32 @@
+/* Create your test CSS here */
+
+.special {
+    color: red;
+    border: dashed red;
+  }
+  
+  p {
+    color: blue;
+    background-image: linear-gradient(rgba(0, 0, 15, 0.5), rgba(255, 255, 255, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/128_Balconies_of_1390_Market_Street%2C_San_Francisco.jpg/1280px-128_Balconies_of_1390_Market_Street%2C_San_Francisco.jpg);
+  }
+
+  li {
+    font-size: smaller;
+    color: rgb(21, 136, 40);
+  }
+
+  .craziness {
+    width: 75%;
+    background-color: brown;
+    transform: skew(30deg, 20deg);
+  }
+
+  strong {
+    color: yellow;
+  }
+
+  @media (min-width: 30em) {
+    .special {
+        border: solid blue;
+    }
+  }
